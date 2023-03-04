@@ -1,0 +1,10 @@
+:root {
+  --blue: #337aff;
+  --yellow: #fee100;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.3);
+  --recommended-color: rgba(0, 0, 0, 0.4);
+  --more-suggestions-color: rgba(0, 0, 0, 0.5);
+  --more-suggestions-size: 14px;
+  --chat-background-color: #afc0cf;
+}

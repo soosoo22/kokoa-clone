@@ -1,0 +1,36 @@
+.alt-header {
+  display: flex;
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
+}
+
+.alt-header__column {
+  width: 33%;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.alt-header__column i {
+  font-size: 20px;
+}
+
+.alt-header__column span {
+  font-size: 22px;
+  white-space: nowrap; /* 줄바꿈 억제*/
+}
+
+.alt-header__column:last-child span:not(:first-child) {
+  margin-left: 20px;
+}
