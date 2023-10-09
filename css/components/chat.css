@@ -66,7 +66,9 @@
 }
 
 .message-row--other {
-  animation: Receive 1s linear;
+  opacity: 0;
+  animation: Receive 1s linear forwards;
+  animation-delay: 2.7s;
 }
 
 .message-row img {
@@ -79,6 +81,8 @@
 .message__author {
   display: block;
   margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .message__info {
@@ -92,12 +96,12 @@
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
+  font-size: 12px;
 }
 
-.message__author,
 .message__time {
   opacity: 0.7;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 @keyframes Send {
